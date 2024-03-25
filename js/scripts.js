@@ -4,5 +4,5 @@ export const featuredRecipe = [
     name: "Argula Beat and Cheese Salad",
     description: "REFRESHINGLY SWEET.",
     url: "../images/argula-salad.jpg"
-  },
+  }
 ];
