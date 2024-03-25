@@ -1,13 +1,18 @@
 /*Navigation Container-->*/
 
+html{
+  background-color: rgb(21, 21, 34);
+}
+
 #navContainer{
 padding: 2px;
-margin: 2px;
+height: 100px;
+width: 1440px;
 }
 
 a {
   text-decoration: none;
-  color:black;
+  color:rgb(239, 239, 239);
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -28,12 +33,26 @@ a:hover{
   margin: 1px;
 }
 
+#sheetHeader{
+  color:rgb(239, 239, 239);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+}
+
+#sheetHeader2{
+  color:rgb(239, 239, 239);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+}
+
 h1{
+  color:rgb(33, 33, 33);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 700;
 }
 
 h2{
+  color:rgb(33, 33, 33);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 400;
 }
@@ -57,7 +76,7 @@ h2{
   position: absolute;
   width: 480px;
   height: 170px;
-  background-color: white;
+  background-color: rgb(201, 158, 158);
   bottom: 50px;
 }
 
@@ -68,7 +87,7 @@ h2{
   letter-spacing: 1.8px;
   padding: 1px;
   text-decoration: underline;
-  text-decoration-color: rgb(59, 200, 200);
+  text-decoration-color: rgb(143, 43, 61);
   text-decoration-thickness: 3px;
   position: absolute;
   bottom: 100px;
@@ -109,4 +128,5 @@ h2{
 .sheetPanContent{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 400;
+  color: rgb(239, 239, 239);
 }
