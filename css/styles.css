@@ -37,3 +37,45 @@ h2{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 400;
 }
+
+#featuredRecipeContainer{
+  padding: 2px;
+  margin: 2px;
+}
+
+#featuredRecipeBackground{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+#featuredRecipeText{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  width: 480px;
+  height: 170px;
+  background-color: white;
+  bottom: 50px;
+}
+
+#featuredRecipeDescription{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  padding: 1px;
+  text-decoration: underline;
+  text-decoration-color: rgb(59, 200, 200);
+  text-decoration-thickness: 3px;
+  position: absolute;
+  bottom: 100px;
+}
+
+#featuredRecipeName{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  padding: 1px;
+}
